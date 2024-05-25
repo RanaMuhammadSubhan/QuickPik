@@ -1,0 +1,36 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.font{
+  font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+}
+.bg-custom-gradient {
+  background: radial-gradient(circle, white, #dcfce7, #bbf7d0);
+}
+@keyframes borderAnimation {
+  0% {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+  }
+  50% {
+    border-left: 2px solid grey;
+    border-right: 0px solid black;
+  }
+  100% {
+    border-left: 0 solid black;
+    border-right: 2px solid grey;
+  }
+}
+
+.animate-border {
+  animation: borderAnimation 1s infinite;
+}
